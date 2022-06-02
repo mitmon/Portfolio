@@ -35,8 +35,21 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="header-1">
-                About me.
+            <div class="col">
+                <div class="header-1">
+                    About me.
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3 justify-content-center">
+            <div class="col-auto">
+                <a class="no-uline no-uline-hover px-5" onClick="document.getElementById('whoiam').scrollIntoView();">Who I am</a> 
+            </div>
+            <div class="col-auto">
+                <a class="no-uline no-uline-hover px-5" onClick="document.getElementById('workexperience').scrollIntoView();">Work Experience</a> 
+            </div>
+            <div class="col-auto">
+                <a class="no-uline no-uline-hover px-5" onClick="document.getElementById('lookingforward').scrollIntoView();">Looking Forward</a> 
             </div>
         </div>
     </div>
@@ -44,108 +57,430 @@
         <div class="row p-5 m-3 shadow">
             <div class="col">
                 <div class="row">
-                    <div class="col">
+                    <div class="col pb-3" id="whoiam">
                         <h3 class="header-3">
-                            Title Filler Text
+                            Who I am
                         </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p class="text-left">
-                            01 Jun 2022
+                        <h4 class="header-4 text-center">
+                            Hello! I'm Mitch.
+                        </h4>
+                        <p class="font-light">
+                            I'm a University of Waterloo and University of New Brunswick graduate, studying environmental studies, computer science, 3D city modeling, and the effects of future climate change.
                         </p>
+                        <p class="font-light">
+                            As I've grown as a developer, I've worked alongside senior researchers and program managers who have raised my standards for whats expected of any research and development project.
+                            Apart from the courses included in my degrees, I've taken a number of online courses such as 
+                            <span id="bold">HTML & CSS crash courses,</span> 
+                            <span id="bold">edX Data Science: R, Probability, Visualization, and Basics,</span> 
+                            and I'm working through
+                            <span id="bold"> Scrimba: The frontend developer career path.</span>
+                        </p> 
                     </div>
-                    <div class="col">
-                        <p class="text-center">
-                            |
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p class="text-end">
-                            Design, Pattern
-                        </p>
+                    <div class="col-sm text-center">
+                        <a href="#">
+                            <img class="img-headshot" src="../img/profile-pic-3.png" alt="">
+                        </a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="row p-5 m-3 bg-c1 shadow">
             <div class="col">
-                <div class="row">
-                    <div class="col">
+                <div class="row" id="workexperience">
+                    <div class="col pb-3">
                         <h3 class="header-3">
-                            Title Filler Text
+                            Work Experience
                         </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p class="text-left">
-                            01 Jun 2022
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p class="text-center">
-                            |
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p class="text-end">
-                            Design, Pattern
+                        <p class="font-light">
+                            My previous work (and schooling!) has been diverse throughout the years. I have had the opportunity to work on a number of projects, fields, and topics.
+                            These includes working at the 
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-1').scrollIntoView();">University of Waterloo</a> 
+                            as a database programmer, 
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-2').scrollIntoView();">Agriculture and Agri-Foods Canada</a> 
+                            as a GIS technician, 
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-3').scrollIntoView();">University of Guelph</a> 
+                            as a soil scientist reseracher, 
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-4').scrollIntoView();">Quality Urban Energy Systems of Tomorrow (QUEST) Canada</a> 
+                            as a GIS technician, 
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-5').scrollIntoView();">Agriculture and Agri-Foods Canada</a> 
+                            as a database compliler,
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-6').scrollIntoView();">Independent Consultant</a> 
+                            as an independent consultant, focused on developing a environmental action plan and a community environmental plan, and
+                            <a class="no-uline no-uline-hover" onClick="document.getElementById('work-7').scrollIntoView();">Agriculture and Agri-Foods Canada</a> 
+                            as a soil information specialist. This is just the tip of the iceberg. My knowledge extends to ocean mapping, remote sensing, building and location placement analysis,
+                            snow and ice analysis, 3D city modelling, precision agriculture, sustainable energy, solar radiance potential, wind energy potential, and much more.
+                            As you will see throughout, I have extensive knowledge, training, and practical experience programming in 
+                            <span id="bold">Bootstrap</span>,
+                            <span id="bold">CSS</span>,
+                            <span id="bold">HTML</span>,
+                            <span id="bold">JavaScript</span>, 
+                            <span id="bold">Python</span>, and <span id="bold">R</span>.
                         </p>
                     </div>
                 </div>
+                <div class="row uline">
+                    <div class="col">
+                        <pm class="font-light">
+                            Solution-driven information specialist with 5+ years of experience and strong JavaScript, Python, R skills. 
+                            Seeking to deliver resourceful code for research, industry, government policy, and advanced geospatial user interfaces. 
+                            At Agriculture and Agri-Foods Canada, I have led the successful research and development of a future land suitability rating system 
+                            and data discovery portal for the ease of access to cutting-edge geospatial tools. 
+                            Looking to further advance gained geospatial and user interface skills in a role with demanding challenges. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-7">
+                    <h4 class="header-4">
+                        Soil Information Specialist
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        Agriculture and Agri-Foods Canada | 2020 - Present
+                    </p>
+                </div>
+                <div class="row py-3">
+                    <p class="px-3">
+                        1 // Land Suitability Rating System Developer
+                    </p>
+                </div>
                 <div class="row">
                     <div class="col">
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
+                        <div class="row">
+                            <p class="font-light">
+                                Provided object-oriented software design for the determination and modelling of complex land suitability ratings. 
+                                I developed and customized R packages and user interfaces for the understanding of best farming practices. 
+                                Reports and technical how-to documents were produced for future client use.
+                            </p>
+                        </div>
+                        <div class="row-6 px-3">
+                            <p>
+                                Key skills enhanced:
+                            </p>
+                            <ul>
+                                <li class="font-light">
+                                    Contributed expertise in the development of products through the software lifecycle, from requirements definition through stakeholder engagements
+                                </li>
+                                <li class="font-light">
+                                    Facilitated customization of systems by encouraging the adoptions of open source, and emerging standard for software application development
+                                </li>
+                                <li class="font-light">
+                                    Organized large qualitative and quantitative datasets for leading edge research
+                                </li>
+                                <li class="font-light">
+                                    Presented initial findings to local farmers, University professors, and government organizations for user experiences and customer feedback
+                                </li>
+                                <li class="font-light">
+                                    Maintained high government standards for security and privacy
+                                </li>
+                                <li class="font-light">
+                                    Leveraged web mapping tools and open-source API’s and packages
+                                </li>
+                                <li class="font-light">
+                                    Used Github for versioning control and multi-user level access to data
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <p class="px-3">
+                        2 // Data Discovery Portal Developer
+                    </p>
+                </div>
+                <div class="row uline">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                I have been leading the data discovery portal project for the access to seamless information, tools, and spatially distributed data.
+                            </p>
+                        </div>
+                        <div class="row-6 px-3">
+                            <p>
+                                Key skills enhanced:
+                            </p>
+                            <ul>
+                                <li class="font-light">
+                                    Lead the development of a new user interface for the easy dissemination of geospatially derived data
+                                </li>
+                                <li class="font-light">
+                                    Mentored a team of 3 developers for the successful creation of a web map portal
+                                </li>
+                                <li class="font-light">
+                                    Developed and implemented a reporting system for access to geospatial data
+                                </li>
+                                <li class="font-light">
+                                    Researched and programmed advanced scientific tools for implementation into the system
+                                </li>
+                                <li class="font-light">
+                                    Lead and planned stakeholder meetings to receive customers feedback to improve the style, look, and feel of the user experience
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-6">
+                    <h4 class="header-4">
+                        Independent Consultant
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        Town of Florenceville-Bristol | 2019 – 2020
+                    </p>
+                </div>
+                <div class="row py-3">
+                    <p class="px-3">
+                        1 // Community Environmental Program Development Manager 
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                After the successful development of the environment action plan for the Town of Florenceville-Bristol, I was invited to continue working with the Town to investigate and research potential programs available to the local community for decreasing greenhouse gas emissions. 
+                                I acted as the expert, being the contact person, tasked to disseminate information to the public through reports, presentations, and direct question and answering. 
+                                This plan is be used by the public, local businesses, and government to explore potential community engagements and funding sources to increase sustainability in Florenceville-Bristol.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <p class="px-3">
+                        2 // Environmental Action Plan Project Manager  
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                I developed and led a project proposal to create a climate action plan for the Town of Florenceville-Bristol, NB. 
+                                This project proposal was successfully approved for $15,000. 
+                                I managed a team of 2 where we carried out an assessment on avenues to reduce greenhouse gas emissions in the local community. 
+                                I better understood the building energy efficiency of each building in the Town. I was the lead contact and liaised closely with community stakeholders to understand their perspectives and determine how to best implement the findings. 
+                                I held community engagements to receive stakeholder perspective and feedback on the proposed changes and actions. Continuous iterations were implemented as new requirements arose. Prototyping necessary interfaces and software was critical for the successful tracking of GHG emissions. 
+                                A final report was produced, with recommendations for the local action plan for the Town of Florenceville-Bristol. 
+                                The town planned for a reduction of 21% of 2017 CO2 emissions by 2025.
+                            </p>
+                        </div>
+                        <div class="row-6 px-3 uline">
+                            <p>
+                                Key skills enhanced:
+                            </p>
+                            <ul>
+                                <li class="font-light">
+                                    Lead the development of a successful contract bid and proposal 
+                                </li>
+                                <li class="font-light">
+                                    Acted as the contact between stakeholders, community members and industry partners 
+                                </li>
+                                <li class="font-light">
+                                    Lead workshops and community stakeholder engagements to inform and receive feedback about the proposed environmental action plan
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-5">
+                    <h4 class="header-4">
+                        Database Compiler
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        Agriculture and Agri-Foods Canada | 2019 – 2019
+                    </p>
+                </div>
+                <div class="row uline">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                I created, modified, and produced geodatabases for use by internal clients for increasing productivity and yields for potatoes in New Brunswick. 
+                                Office 365 was used to track issues, bugs, and changes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-4">
+                    <h4 class="header-4">
+                        GIS and Remote Sensing Technician
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        QUEST (Quality Urban Energy Systems of Tomorrow) Canada | 2018 – 2019
+                    </p>
+                </div>
+                <div class="row uline">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                Quality Urban Energy Systems and Technology (QUEST) Canada contracted me to collect and produce geodatabases for use in open-source mapping software. 
+                                I then informed, determined best practice requirements for the implementation of smart energy grids across Charlottetown. 
+                                I worked alongside government officials and private-sector leaders to aid local authorities in the implementation of on-the-ground solutions. 
+                                A final report was produced for QUEST Canada outlining the results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-3">
+                    <h4 class="header-4">
+                        Soil Scientist Researcher
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        University of Guelph | 2017 – 2018
+                    </p>
+                </div>
+                <div class="row uline">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                I worked under Dr. Aaron Berg, the Canadian research chair in hydrology and remote sensing, to investigate, and compare the effects of using UAVSAR data versus RADARSAT-2 data for upscaling techniques over farms in Manitoba. 
+                                This research will be used to increase productivity across farm fields in Canada. Microwave data was used to identify agricultural regions across Manitoba experiencing risk due to extreme soil moisture conditions (flood and drought). 
+                                I worked with and programmed a random forest tree using python and ArcPy with ArcGIS tools such as ArcGIS Desktop and ArcGIS Pro for a seamless integration between the data and the results. 
+                                Final findings were prepared and presented at the 2nd International Conference on Recent Trends in Environmental Science and Engineering (RTESE'18). 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-2">
+                    <h4 class="header-4">
+                        GIS and Remote Sensing Technician
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        Agriculture and Agri-Foods Canada | 2016 – 2017
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <p class="font-light">
+                                As part of a research team at Agriculture and Agri-foods Canada, managed by Dr. Heather McNairn, I was tasked with assisting in researching new methods to measure changes in field soil moisture values. 
+                                Maps were produced using ESRI’s ArcGIS and ArcPro software to edit, process and maintain databases for NASA’s SMAP satellite. 
+                                Metadata record keeping was produced for the data using ArcGIS Desktop and ArcPro tools. This data is being used to monitor the effects on agricultural production and crop yields predictions. 
+                                We received an AAFC-AAC Instant Award for exceptional work and the development of future partnership between multiple diverse industrial and academic institutions. 
+                                A final report was produced to guide informed farm-operation decisions based on changing weather, water and climate conditions.     
+                            </p>
+                        </div>
+                        <div class="row-6 px-3 uline">
+                            <p>
+                                Field work:
+                            </p>
+                            <ul>
+                                <li class="font-light">
+                                    I was part of the 18-day SMAPVEX16 validation field campaign where I was tasked with aiding in the collecting, training and organizing of the use of handheld Nikon cameras and RADAR devices. 
+                                </li>
+                                <li class="font-light">
+                                    These devices were used to assess local leaf area indexes as well as SAR reflectance values. Training sessions participants included multiple organizations such as NASA, University of Guelph, University of Manitoba, and the Université de Sherbrooke. 
+                                </li>
+                                <li class="font-light">
+                                    Other field duties included the collection of soil cores, plant samples, and soil moisture values
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3" id="work-1">
+                    <h4 class="header-4">
+                        Laser Database Programmer
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>
+                        University of Waterloo | 2015 – 2016
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row uline">
+                            <p class="font-light">
+                                I created and implemented an automatic system for recording and maintaining laser inventories for the University of Waterloo. 
+                                As part of the University Safety Office, I regularly met with professor, students and staff to address concerns about laser safety, practice, storage and maintenance. 
+                                A final report was produced on the importance of maintaining an up-to-date inventory of lasers for workplace health and safety procedures.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row p-5 m-3 shadow">
             <div class="col">
-                <div class="row">
-                    <div class="col">
+                <div class="row" id="lookingforward">
+                    <div class="col pb-3">
                         <h3 class="header-3">
-                            Title Filler Text
+                            Looking Forward
                         </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p class="text-left">
-                            01 Jun 2022
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p class="text-center">
-                            |
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p class="text-end">
-                            Design, Pattern
+                        <p class="font-light">
+                            I’ve been a passionate follower of Tesla since the inception and introduction of the first roadster. 
+                            I have been drawn to Tesla’s goal of accelerating the world’s transition to sustainable energy. I want to be part of this revolutionary change, challenge the traditional thinking of gas-powered mobility, and further advance the transition to clean energy, scalable storage solution, and a zero-emission future. 
+                            You may wonder why someone with a background in geomatics, computer science, and agricultural farming might be applying to work at Tesla, but let me tell you, I want to be part of the next generation of mobility technology. 
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
-                        Filler text meant to show that there is a decsription
+                        <p class="font-light">
+                            Ever since I was young, I’ve had a passion for technology but more important, green technology. 
+                            I’ve always been interesting in leading-edge ideas, products, and tools. I’ve always wanted to empower people with future technologies and make the world a better place. This is what led me to continue my conquest for knowledge at the University of New Brunswick (UNB). 
+                            While at UNB, I completed my Master of Science in Engineering in 3D city modelling. I was able to navigate through complex topics and ideas. 
+                            Investigate and develop my programming skills, working in Python, R, and JavaScript. 
+                            Being part of a group that is trying to push the boundaries of human capabilities left me wanting more. 
+                            This is what lead me to Tesla.
+                        </p>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="font-light">
+                            After graduating and starting out in the big world of work, I began exploring the potential for future farming modelling due to effect of climate change across Canada. 
+                            This opportunity has opened my eyes to the bigger picture of the challenges that face humans. 
+                            Further, it has opened my eyes to what Tesla is trying to achieve, and let me say, this is no small feat. 
+                            Switching the world to renewables will be ESSENTIAL if we want to have a chance of tackling climate change. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row-6 px-3 uline">
+                    <p>
+                        Here’s what I want to bring to the table for Tesla:
+                    </p>
+                    <ul>
+                        <li class="font-light">
+                            I have a well-built programming foundation, developed throughout my schooling and work. 
+                            Although I might not know everything from the start, I have always had a passion to learn. 
+                            There will be many opportunities for me to grow into a professional role at Tesla learning from my peers but also through complex academic research. 
+                            There are many chances for me to continue to push the boundaries of what Tesla can do, and as part of the team, I will be an enthusiastic, go-getter ready to take on any challenge that is presented to me
+                        </li>
+                        <li class="font-light">
+                            I am passionate about design and UX. 
+                            While completing my undergraduate degree from the University of Waterloo I had the opportunity to learn from exceptional design experts. 
+                            My number take away from these courses was to be whimsical, delightful, and remain humble. 
+                            There will always be a critic of your work, and the worst critic of all is yourself! 
+                            When you work closely with design and leverage your own intuition, all design work can be achieved (and it’s a ton of fun!).
+                        </li>
+                        <li class="font-light">
+                            I love working on experimental projects. 
+                            I love even more when it reaches production level! Currently, I research where we will be growing food across Canada in the year 2070. 
+                            Imagine what foods exist today that didn’t exist 20 years ago (hint, Canola is a Canadian invention). 
+                            I want to take this sense of curiously to Tesla and further expand on the greatness that has been accomplished. 
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

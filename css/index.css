@@ -33,6 +33,12 @@ p {
 	line-height: 38px;
 }
 
+.header-4 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 38px;
+}
+
 .bg-light {
 	background-color: white;
 }
@@ -79,7 +85,7 @@ img {
 
 .img-headshot {
 	width: 256px;
-	height: 256px;
+	height: auto;
 }
 
 .img-cmpy-logo {
@@ -113,6 +119,10 @@ img {
 
 .font-light {
 	color: #8695A4;
+}
+
+.bold {
+	color: #21243D;
 }
 
 .uline {
