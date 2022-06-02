@@ -45,10 +45,13 @@ p {
 	background: #EDF7FA
 }
 
-.primary,
 .no-uline-hover:hover,
 .no-uline-active:active  {
 	color: #FF6464;
+}
+
+.primary {
+	background: #FF6464;
 }
 
 .secondary {
@@ -96,6 +99,11 @@ img {
 .button {
 	text-decoration: none;
 	font-size: 20px;
+}
+.button:hover {
+	text-decoration: none;
+	background-color: #ff8989;
+	color: white;
 }
 
 .font-white {
