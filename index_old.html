@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitch's Portfolio</title>
+    <link rel="icon" href="./img/design-logo-tab.png">
+    <link rel="stylesheet" href="./css/index_old.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-gray">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-6">
+                <a href="index.html">
+                    <img class="nav-logo" src="./img/design-logo.png" alt="design logo for mitch krafczek">
+                </a>
+            </div>
+            <div class="col-6 nav-tool">
+                <div class="row">
+                    <div class="col">
+                        <a class="no-uline no-uline-hover" href="./index.html">New Layout</a>
+                    </div>
+                    <div class="col no-uline no-uline-hover">
+                        <a onClick="document.getElementById('about').scrollIntoView();">About</a>
+                    </div>
+                    <div class="col no-uline no-uline-hover">
+                        <a onClick="document.getElementById('work').scrollIntoView();">Work</a>
+                    </div>
+                    <div class="col no-uline no-uline-hover">
+                        <a onClick="document.getElementById('sandbox').scrollIntoView();">Sandbox</a>
+                    </div>
+                    <div class="col no-uline no-uline-hover">
+                        <a onClick="document.getElementById('contact').scrollIntoView();">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row p-5">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col">
+                        <h1>
+                            Hi, I'm Mitch.
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-wrap">
+                        <h3 class="text-gray">
+                            Information systems software developer, sustainability activist, renewable energy advocator, life long learner
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col text-center">
+                        <a>
+                            <img class="img-header" src="./img/profile-pic-1.png" alt="Headshot of Mitch Krafczek">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center line-under"></div>
+    </div>
+    <div class="container">
+        <div class="row p-5 pb-0" id="about">
+            <h2>
+                About me.
+            </h2>
+        </div>
+        <div class="row row-cols-auto p-5 pb-0">
+            <div class="col-sm-6">
+                <p>
+                    I'm a University of Waterloo and University of New Brunswick graduate, studying environmental studies, computer science, 3D city modeling, and the effects of future climate change.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    As I've grown as a developer, I've worked alongside senior researchers and program managers who have raised my standards for whats expected of any research and development project.
+                    Apart from the courses included in my degrees, I've taken a number of online courses such as 
+                    <span id="bold">HTML & CSS crash courses,</span> 
+                    <span id="bold">edX Data Science: R, Probability, Visualization, and Basics,</span> 
+                    and I'm working through
+                    <span id="bold"> Scrimba: The frontend developer career path.</span>
+                </p> 
+            </div>
+        </div>
+        <div class="row row-cols-2 p-5 pb-0">
+            <div class="col">
+                <h3>
+                    Main Software
+                </h3>
+            </div>
+            <div class="col">
+                <p>
+                    CSS, HTML, JavaScript, MatLab, PHP, Python, R, R Shiny, R ShinyApps, SQL
+                </p>
+            </div>
+        </div>
+        <div class="row row-cols-2 p-5 pb-0">
+            <div class="col">
+                <h3>
+                    Main Skills
+                </h3>
+            </div>
+            <div class="col">
+                <p>
+                    Attention to details, Budget Planning, Creativity, Document and Report Writing, Leadership, Public Speaking, Research, Risk Management
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center line-under"></div>
+    </div>
+    <div class="container">
+        <div class="row p-5 pb-0" id="work">
+            <h2>Work.</h2>
+        </div>
+        <div class="row row-cols-auto p-5 pb-0">
+            <div class="col-md">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h3>
+                                1 / LAND SUITABILITY RATING SYSTEM
+                            </h3>
+                        </div>
+                        <div class="row">
+                            <p>
+                                The Land Suitability Rating System is an R and R Shiny application built for modeling and assessing climate, soil, and landscape data for growing agronomic crops within Canada.
+                                Starting from scratch in R, I have been working to revitalize, covert, add new features, and to create an R package for the now 6th version of the application. Key updates in the newest version include the
+                                transition from vector based data to grid (raster) based data.
+                            </p>
+                        </div>
+                        <div class="row py-3">
+                            <h4>
+                                Stack
+                            </h4>
+                        </div>
+                        <div class="row row-cols-4 ">
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/r/r-logo.png" alt="Logo for R coding language">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/leaftlet/leaflet-logo.png" alt="Logo for leaflet mapping software">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/r/rshiny-logo.png" alt="Logo for R ShinyApps">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/r/rmarkdown-logo.png" alt="Logo for R markdown">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <a class="no-uline no-uline-hover" href="https://mitmon.shinyapps.io/SRS_V6_Shiny_App/">
+                                More about this project ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <a>
+                    <img class="img-work right-rotate" src="./img/projects/lsrs_pei_example.png" alt="Results of the land suitability rating system projected over Prince Edward Island, Canada">
+                </a>
+            </div>
+        </div>
+        <div class="row row-cols-auto p-5 pb-0">
+            <div class="col-md">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h3>
+                                2 / GOOGLE EARTH ENGINE
+                            </h3>
+                        </div>
+                        <div class="row">
+                            <p>
+                                The Google Earth Engine app streamlines the access of data while removing the complex coding and modeling tools. This tool was created to increase accessibility and access to the products.
+                            </p>
+                        </div>
+                        <div class="row py-3">
+                            <h4>
+                                Stack
+                            </h4>
+                        </div>
+                        <div class="row row-cols-5">
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/html/html5-logo.png" alt="Logo for HTML 5">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/css/css3-logo.png" alt="Logo for CSS 3">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/js/javascript5-logo.png" alt="Logo for Javascript 5 coding language">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/python/python-logo.png" alt="Logo for python coding language">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/google/earth-engine-logo.png" alt="Logo for Google Earth Engine">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <a class="no-uline no-uline-hover" href="https://mitchkrafczek.users.earthengine.app/view/srs-data-extraction">
+                                Check out the portal ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <a href="https://mitchkrafczek.users.earthengine.app/view/srs-data-extraction">
+                    <img class="text-center img-work right-rotate" src="./img/projects/gee-portal.png" alt="Portal homescreen for the Google Earth Engine app">
+                </a>
+            </div>
+        </div>
+        <div class="row row-cols-auto p-5">
+            <div class="col-md">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h3>
+                                3 / DATA DISCOVERY PORTAL
+                            </h3>
+                        </div>
+                        <div class="row">
+                            <p>
+                                The integration and customization of open source mapping tools for the enablement of advanced agricultural research.
+                            </p>
+                            <p>
+                                Key tasks include system integration, customization, data preparation, and science communication to the general public.
+                            </p>
+                        </div>
+                        <div class="row py-3">
+                            <h4>
+                                Stack
+                            </h4>
+                        </div>
+                        <div class="row row-cols-5">
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/html/html5-logo.png" alt="Logo for HTML 5">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/css/css3-logo.png" alt="Logo for CSS 3">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/js/javascript5-logo.png" alt="Logo for Javascript 5 coding language">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/php/php-logo.png" alt="Logo for php coding language">
+                                </a>
+                            </div>
+                            <div class="col img-stack">
+                                <a>
+                                    <img src="./img/company-logos/geoserver/geoserver-logo.png" alt="Logo for geoserver mapping software">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <a class="no-uline no-uline-hover" href="https://github.com/mitmon/national-data-portal">
+                                Coming soon.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <a>
+                    <img class="img-work right-rotate" src="./img/projects/ddp_homepage.png" alt="Home page of the data discovery portal">
+                </a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center line-under"></div>
+    </div>
+    <div class="container ">
+        <div class="row p-5 pb-0">
+            <h2 id="sandbox">
+                Sandbox.
+            </h2>
+        </div>
+        <div class="row row-cols-auto p-5">
+            <div class="col-sm">
+                <div class="row">
+                    <h3>
+                        1 / UNIVERSITY OF NEW BRUNSWICK
+                    </h3>
+                </div>
+                <div class="row">
+                    <p>
+                        Learn something new?
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        Explore the level of detail two, three-dimensional city models created during my master work.
+                    </p>
+                </div>
+                <div class="row pt-3">
+                    <a class="no-uline no-uline-hover" href="./docs/Thesis_Mitch_Krafczek.pdf">
+                        Read about my masters work.
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <h3>
+                        2 / ROUTE PLANNER
+                    </h3>
+                </div>
+                <div class="row">
+                    <p>
+                        Need directions?
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        Tour around with this custom route planner to get directions (and traffic ☹️) to your location.
+                    </p>
+                </div>
+                <div class="row pt-3">
+                    <p>
+                        <a class="no-uline no-uline-hover" href="./sandbox/route_planner/index.html">Let's Go. ↗</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <h3>
+                        3 / CRYPTO TRADING BOT
+                    </h3>
+                </div>
+                <div class="row">
+                    <p>
+                        Play the markets?
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        Delve into this automatic CryptoTrader. May the odds be ever in your favour. (This does not constitute as legal financial advice)
+                    </p>
+                </div>
+                <div class="row pt-3">
+                    <a class="no-uline no-uline-hover" href="https://github.com/mitmon/CryptoTrader">
+                        Work in progress.
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center line-under"></div>
+    </div>
+    <div class="container">
+        <div class="row p-5 pb-0" id="contact">
+            <h2>
+                Contact.
+            </h2>
+        </div>
+        <div class="row p-5 pb-0">
+            <div class="col-sm-6">
+                <h3>
+                    I am thrilled to get in contact with you. 
+                </h3>
+            </div>
+            <div class="col-sm-6">
+                <h3>
+                    <a class="no-uline no-uline-hover" href="mailto:mitchkrafczek@gmail.com">mitchkrafczek@gmail.com</a>
+                </h3>
+            </div>
+        </div>
+        <div class="row p-5 pb-0">
+            <div class="col-sm-6 ">
+                <h3>
+                    Let's make greatness happen.
+                <a href="mailto:mitchkrafczek@gmail.com">
+                    <img class="img-arrow" src="./img/arrow-right.png" alt="arrow pointing right"/>
+                </a>
+                </h3>
+            </div>
+            <div class="col-sm-6">
+                <h3>
+                    <a class="no-uline no-uline-hover" href="./docs/Resume.pdf" id="small-text">View resume</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form action="https://formsubmit.co/46d245251a90ce7f64e9fdbe32dd7dc4" method="POST">
+            <div class="row p-5 pt-0">
+                <div class="row px-3 justify-content-center contact-form">
+                    <div class="col-sm-6 pb-1">
+                        <div class="row px-1">
+                            <input type="text" id="fname" name="fname" placeholder="First name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 pb-1">
+                        <div class="row px-1">
+                            <input type="text" id="lname" name="lname" placeholder="Last name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-3 pt-2 justify-content-center contact-form ">
+                    <div class="col-sm-6 pb-1">
+                        <div class="row px-1">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 pb-1">
+                        <div class="row px-1">
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Number (### - ### - ####)" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-3 pt-2 justify-content-center contact-message">
+                    <div class="col-sm pb-1">
+                        <div class="row px-1">
+                            <input type="text" id="message" name="message" placeholder="Type your message here" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-3 pb-1 justify-content-center contact-submit-button">
+                    <div class="col-sm pb-1">
+                        <div class="row px-1">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="d-flex justify-content-center line-under"></div>
+    </div>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    Mitch Krafczek — 2022
+                </p>
+            </div>
+            <div class="col-6 nav-tool">
+                <div class="row">
+                    <div class="col-4 no-uline">
+                        <a href="https://twitter.com/mitmon13">
+                            <img class="img-cmpy-logo" src="img/company-logos/twitter-logo/Twitter logo/PNG/2021 Twitter logo - black.png" alt="twitter logo">
+                        </a>
+                    </div>
+                    <div class="col-4 no-uline">
+                        <a href="https://www.linkedin.com/in/mitch-krafczek-701088a7/">
+                            <img class="img-cmpy-logo" src="img/company-logos/LinkedIn-Logos/LI-In-Bug.png" alt="linkedin logo">
+                        </a>
+                    </div>
+                    <div class="col-4 no-uline">
+                        <a href="https://github.com/mitmon">
+                            <img class="img-cmpy-logo"  src="img/company-logos/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="github logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
