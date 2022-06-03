@@ -11,15 +11,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container mb-5 p-5">
+    <div class="container mb-5 p-5 ">
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item mx-3">
+                <a class="nav-link active-pill" data-toggle="tab" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="./html/about.html">About</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="./html/work.html">Work</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="./html/contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- <div class="container mb-5 p-5">
         <div class="row">
-            <div class="col-6">
+            <div class="col-8">
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <div class="row">
-                    <div class="col">
-                        <a class="no-uline no-uline-hover no-uline-active" href="./index_old.html">Old Layout</a>
-                    </div>
                     <div class="col">
                         <a class="no-uline no-uline-hover no-uline-active" href="./index.html">Home</a>
                     </div>
@@ -35,8 +48,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
+    </div> -->
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-xl">
@@ -57,9 +69,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row text-center button-hover">
                     <div class="col my-3">
-                        <a class="p-3 primary font-white rounded-1 button" href="./docs/Resume.pdf">
+                        <a class="header-4 p-3 primary font-white rounded-1 button" href="./docs/Resume.pdf">
                             Download Resume
                         </a>
                     </div>
@@ -132,7 +144,7 @@
                 </p>
             </div>
         </div>
-        <div class="row d-flex py-3 uline">    
+        <div class="row d-flex pt-3 pb-5 uline">    
             <div class="col-sm">
                 <a href="#">
                     <img class="img-thumbnail" src="./img/projects/lsrs_pei_example.png" alt="Results of the land suitability rating system projected over Prince Edward Island, Canada">
@@ -148,7 +160,7 @@
                 </div>
                 <div class="row">
                     <div class="col-2 px-2 text-center">
-                        <p class="rounded-5 px-1 bg-c3 no-justify text-white dark">
+                        <p class="rounded-5 px-1 bg-c3 no-justify text-white primary">
                             2022
                         </p>
                     </div>
@@ -164,6 +176,42 @@
                             The Land Suitability Rating System is an R and R Shiny application built for modeling and assessing climate, soil, and landscape data for growing agronomic crops within Canada.
                                 Starting from scratch in R, I have been working to revitalize, covert, add new features, and to create an R package for the now 6th version of the application. Key updates in the newest version include the
                                 transition from vector based data to grid (raster) based data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex py-5 uline">    
+            <div class="col-sm">
+                <a href="#">
+                    <img class="img-thumbnail" src="./img/projects/gee-portal.png" alt="Results of the land suitability rating system projected over Prince Edward Island, Canada">
+                </a>
+            </div>
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="header-2">
+                            Google Earth Engine
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 px-2 text-center">
+                        <p class="rounded-5 px-1 bg-c3 no-justify text-white primary">
+                            2022
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="font-light">
+                            Webportal
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            The Google Earth Engine app streamlines the access of data while removing the complex coding and modeling tools. 
+                            This tool was created to increase accessibility and access to the products.
                         </p>
                     </div>
                 </div>

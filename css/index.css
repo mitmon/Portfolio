@@ -51,11 +51,6 @@ p {
 	background: #EDF7FA
 }
 
-.no-uline-hover:hover,
-.no-uline-active:active  {
-	color: #FF6464;
-}
-
 .primary {
 	background: #FF6464;
 }
@@ -104,12 +99,18 @@ img {
 
 .button {
 	text-decoration: none;
-	font-size: 20px;
 }
-.button:hover {
+.button:hover,
+.button:focus {
 	text-decoration: none;
 	background-color: #ff8989;
 	color: white;
+	transition: background-color 250ms;
+}
+
+.button-hover:hover {
+	transform: scale(1.1);
+	transition: transform 250ms;
 }
 
 .font-white {
@@ -129,15 +130,44 @@ img {
 	border-bottom: #E0E0E0 1px solid;
 }
 
+/* Nav Bar */
+.nav > li > a {
+	color: #21243D;
+}
+
+.nav > li > .active-pill,
+.nav > li > .active-pill:hover,
+.nav > li > .active-pill:focus {
+	background-color: #FF6464;
+	color: white;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	color: #FF6464;
+}
+
 /* A link decoration */
 .no-uline {
 	text-decoration: none;
 	color: #21243D;
 }
 
+.no-uline-light {
+	text-decoration: none;
+	color: #8695A4;
+}
+
 .no-justify {
 	text-align: center;
 }
+
+.no-uline-hover:hover,
+.no-uline-hover:focus,
+.no-uline-active:active {
+	color: #FF6464;
+}
+
 
 /* Contact form */
 .contact-form input {
@@ -161,6 +191,14 @@ img {
 	text-align: center;
 }
 
-.contact-submit-button input:hover {
+.contact-submit-button input:hover,
+.contact-submit-button input:focus {
 	background-color: #ff8989;
+	transform: scale(1.1);
+	transition: background-color 250ms;
+	transition: transform 250ms;
+}
+
+.hidden-onload {
+	display: none;
 }
