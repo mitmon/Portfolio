@@ -89,7 +89,14 @@ img {
 
 .img-stack-logo {
 	width: auto;
-	height: 64px;
+	max-height: 64px;
+}
+
+@media screen and (max-width: 480px) {
+	.img-stack-logo {
+		max-height: 32px;
+	}
+	
 }
 
 .img-work {
@@ -113,6 +120,8 @@ img {
 	transition: transform 250ms;
 }
 
+/* Font's */
+
 .font-white {
 	text-decoration: none;
 	color: #FFFFFF;
@@ -120,6 +129,16 @@ img {
 
 .font-light {
 	color: #8695A4;
+}
+
+.font-primary {
+	color: #FF6464;
+}
+
+.font-secondary,
+.font-secondary:hover,
+.font-secondary:focus {
+	color: #00A8CC;
 }
 
 .bold {
@@ -202,3 +221,12 @@ img {
 .hidden-onload {
 	display: none;
 }
+
+
+/* Media's */
+/* 
+@media max-width(480px) {
+	.wrap-text {
+
+	}
+} */
